@@ -1,5 +1,8 @@
 %dw 2.0
-output application/java 
-var fileName= "dw/$(vars.inputParameter).dwl"
+output application/json
 ---
-readUrl("classpath://" ++ fileName,"text/plain")
+{
+    "First Name": "choochoo",
+    "Last Name": "poopoo,
+    "Country": "doodoo"
+}
