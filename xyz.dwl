@@ -3,6 +3,6 @@ output application/json
 ---
 {
     "First Name": "choochoo",
-    "Last Name": "poopoo,
+    "Last Name": "poopoo",
     "Country": "doodoo"
 }
